@@ -5,7 +5,7 @@ const app = express()
 
 const mongoose = require('mongoose') // 載入 mongoose
 
-mongoose.connect('mongodb://localhost/todo-list', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb://localhost/todo', { useNewUrlParser: true, useUnifiedTopology: true })
 
 
 // 取得資料庫連線狀態
